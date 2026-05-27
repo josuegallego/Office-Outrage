@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora de Desarrollo | Office Outrage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-content">
+            <a href="index.html" class="logo">OFFICE OUTRAGE</a>
+            <div class="nav-links">
+                <a href="index.html">← Inicio</a>
+                <a href="#hero">Sinopsis</a>
+                <a href="#nivel-1">Nivel 1</a>
+                <a href="#devlog">DevLog</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="main-title">Office Outrage</h1>
+                <p class="section-label">PROTOCOLO DE REBELION: ACTIVO</p>
+                <div class="synopsis shadow-effect">
+                    <h2 style="font-size: 0.9rem; color: var(--neon-cyan); margin-bottom: 20px;">SINOPSIS DEL JUEGO</h2>
+                    <p>Office Outrage es un videojuego <strong>beat 'em up</strong> de desplazamiento lateral en 2D con
+                        estética pixel art, en el que el jugador controla a <strong>John</strong>, un oficinista agotado
+                        que, tras recibir un correo urgente del CEO un viernes a las 5:00 PM, decide abrirse paso por 10
+                        pisos de una megacorporación para enfrentarlo cara a cara.</p>
+                    <p style="margin-top: 15px;">A lo largo del recorrido utiliza suministros de oficina como armas,
+                        café como potenciador y su propia furia acumulada para sobrevivir a un entorno laboral absurdo,
+                        opresivo y satírico.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="public/presentación.png" alt="John">
+            </div>
+
+        </section>
+
+        <!-- NIVEL 1 -->
+        <section id="nivel-1" class="level-detail">
+            <p class="section-label">ESPECIFICACIONES TÉCNICAS: NIVEL 1</p>
+            <h2 class="week-title" style="font-size: 2.2rem;">"Lunes de Reportes"</h2>
+
+            <div class="level-grid">
+                <div class="level-card">
+                    <h3>Descripción General</h3>
+                    <p><strong>Inspiración:</strong> El caos burocrático y la sensación de iniciar una semana saturada.
+                        Basado en el "laberinto de cubículos".</p>
+                    <p><strong>Tema:</strong> Acción introductoria / Tutorial. Enfoque en enseñar las bases del combate
+                        y el ritmo del juego.</p>
+                </div>
+                <div class="level-card">
+                    <h3>Contexto Narrativo</h3>
+                    <p>Ocurre tras recibir el correo del CEO. Representa el primer paso de la rebelión de John contra la
+                        cultura corporativa.</p>
+                </div>
+                <div class="level-card">
+                    <h3>Estilo Visual y Sonoro</h3>
+                    <ul>
+                        <li>Paleta "Neón Corporativo" (Azul oscuro, grises, blanco hueso).</li>
+                        <li>Ambiente: Teléfonos sonando, impresoras, zumbidos fluorescentes.</li>
+                    </ul>
+                </div>
+                <div class="level-card">
+                    <h3>Objetivos del Jugador</h3>
+                    <ul>
+                        <li><strong>Principal:</strong> Derrotar enemigos en Ventas y barrera de impresoras.</li>
+                        <li><strong>Secundarios:</strong> Taza de "El Mejor Empleado".</li>
+                        <li><strong>Derrota:</strong> Estrés al 100%.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 2px solid var(--neon-cyan); margin: 80px 0; opacity: 0.3;">
+
+        <!-- DEVLOG SECTIONS: SEMANAS 7 A 16 -->
+        <section id="devlog">
+    <header style="margin-bottom: 60px; text-align: left;">
+        <h2 class="main-title"
+            style="font-size: 1.8rem; border-left: 10px solid var(--neon-magenta); padding-left: 20px;">
+            Bitácora de Desarrollo
+        </h2>
+        <p style="color: var(--neon-cyan); font-size: 0.6rem; margin-top: 10px;">
+            SEGUIMIENTO SEMANAL DE PROGRESO
+        </p>
+    </header>
+
+    <!-- Semana 7 -->
+    <section class="week-section">
+        <h2 class="week-title">Semana 7: Definición del Proyecto</h2>
+
+        <p class="week-description">
+            En clase se seleccionó el GDD del compañero
+            <strong>Juan Andrés Escobar Castillo</strong> como base del proyecto.
+            El equipo analizó el concepto, el perfil del juego y referencias de interfaz
+            para definir la dirección estética y mecánica.
+        </p>
+
+        <p class="week-description" style="margin-top: 10px;">
+            Además, se realizó una investigación del género <strong>beat 'em up</strong>
+            y se desarrolló un primer prototipo funcional con movimiento del personaje.
+        </p>
+
+        <!-- BOTÓN GDD (compacto) -->
+        <div style="margin: 20px 0;">
+            <a href="public/gdd.pdf" download style="
+                color: var(--neon-cyan);
+                text-decoration: none;
+                border-bottom: 2px solid var(--neon-cyan);
+                font-size: 0.6rem;
+            ">
+                ⬇ Descargar GDD
+            </a>
+        </div>
+
+        <!-- VIDEO -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/2DoJAyY8Vts" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- IMÁGENES -->
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="public/captura1.png" alt="Prototipo movimiento">
+            </div>
+            <div class="gallery-item">
+                <img src="public/captura2.png" alt="Prototipo inicial">
+            </div>
+        </div>
+    </section>
+
+    <!-- Semana 8 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 8: Diseño del Nivel 1 y Mejora de Mecánicas</h2>
+
+    <p class="week-description">
+        El equipo diseñó un documento detallado que define todos los aspectos del nivel 1.
+        En este documento se especifican los elementos visuales, diagramas de flujo y mecánicas
+        del nivel "Lunes de Reportes".
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Además, se logró un primer acercamiento a la interfaz de inicio. Los botones y la configuración
+        básica ya están implementados, y se ha mejorado el movimiento del personaje. El enemigo ahora
+        sigue al jugador con mayor precisión e interactúa mejor con el entorno, aprovechando el espacio
+        disponible entre cubículos (lo que se conoce como control del espacio en beat 'em ups).
+    </p>
+
+    <!-- BOTÓN DOCUMENTO DETALLADO (compacto) -->
+    <div style="margin: 20px 0;">
+        <a href="public/documento-nivel-1.pdf" download style="
+            color: var(--neon-cyan);
+            text-decoration: none;
+            border-bottom: 2px solid var(--neon-cyan);
+            font-size: 0.6rem;
+        ">
+            ⬇ Descargar Documento del Nivel 1
+        </a>
+    </div>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/fOvY9IGYtlQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/interfaz.png" alt="Acercamiento a la interfaz">
+        </div>
+        <div class="gallery-item">
+            <img src="public/enemigo.png" alt="Personaje y enemigo en acción">
+        </div>
+    </div>
+</section>
+<!-- Semana 9 -->
+<section class="week-section week-9">
+    <h2 class="week-title">Semana 9: Búsqueda de Assets y Definición Visual</h2>
+
+    <p class="week-description">
+        Durante esta semana el equipo se enfocó en la <strong>búsqueda y selección de assets</strong>
+        para los personajes y entornos del juego. Se exploraron diferentes estilos de pixel art con el objetivo
+        de mantener coherencia visual con la estética "neón corporativo". La tarea fue dificil, al punto que el equipo tuvo que crear algunos assets personalizados para asegurar que el estilo gráfico se mantuviera uniforme en todo el juego.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Se recopilaron referencias para <strong>John (personaje principal)</strong>, sus
+        <strong>animaciones</strong> y elementos visuales del entorno como oficinas y cubículos.
+        Este proceso permitió definir una base gráfica sólida para la implementación futura dentro del juego.
+    </p>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/Oficinista.jpeg" alt="Personaje principal John">
+        </div>
+        <div class="gallery-item">
+            <img src="public/Animaciones.jpeg" alt="Animaciones del personaje">
+        </div>
+        <div class="gallery-item">
+            <img src="public/Oficina.jpeg" alt="Asset fondo oficina 1">
+        </div>
+        <div class="gallery-item">
+            <img src="public/Oficina2.jpeg" alt="Asset fondo oficina 2">
+        </div>
+    </div>
+</section>
+<!-- Semana 10 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 10: Definición de Sprites y Creación de Clips para teaser</h2>
+
+    <p class="week-description">
+        En esta semana se logró la <strong>definición final del sprite del personaje principal</strong>,
+        incorporando elementos visuales clave como la máscara, lo que refuerza la identidad del juego
+        y su tono narrativo. Además, se trabajó en el diseño y selección de <strong>sprites de enemigos</strong>,
+        buscando coherencia estética y claridad en pantalla.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Paralelamente, se inició la <strong>creación de clips de gameplay y generados con IA</strong> que servirán como base
+        para el teaser del proyecto. Estos clips capturan momentos clave del juego y serán utilizados en
+        la edición del video de presentación de la semana 11.
+    </p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/6NHVsUYhH3w" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/jhonnn.png" alt="Sprite final personaje principal con máscara">
+        </div>
+        <div class="gallery-item">
+            <img src="public/ataquejhonn.png" alt="Sprite enemigo 1">
+        </div>
+        <div class="gallery-item">
+            <img src="public/enemigos finales.png" alt="Sprite enemigo 2">
+        </div>
+    </div>
+</section>
+<!-- Semana 11 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 11: Producción del Teaser</h2>
+
+    <p class="week-description">
+        Durante esta semana se realizó la <strong>producción del teaser oficial del juego</strong>,
+        con el objetivo de comunicar la esencia de <strong>Office Outrage</strong> y captar la atención
+        del público desde los primeros segundos.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        El teaser combina <strong>fragmentos de gameplay</strong>, piezas visuales generadas con apoyo de IA
+        y elementos narrativos que introducen la historia del protagonista. Se buscó construir una experiencia
+        dinámica y atractiva, resaltando el tono, estética del juego y generando interés por su desarrollo.
+    </p>
+
+    <!-- VIDEO TEASER -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/l9pHXwWp4eo" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<!-- Semana 12 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 12: Implementación de Combos y Nuevas Mecánicas</h2>
+
+    <p class="week-description">
+        Durante esta semana se implementaron <strong>nuevos sistemas de combate</strong>, incluyendo
+        <strong>combos especiales</strong> y ataques adicionales para el personaje principal. Estas mejoras
+        permiten una experiencia de juego más dinámica, dando mayor profundidad al enfrentamiento contra los enemigos.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Asimismo, se integró una mecánica de <strong>progresión en el nivel</strong>, donde el mapa se va
+        desbloqueando a medida que el jugador derrota a los enemigos. Esto refuerza el ritmo del juego y
+        guía al jugador a través del escenario de manera más controlada y estratégica.
+    </p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/96jw09XsxqQ?si=PExEsow-7Y08ryXY" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/dañopersonaje.png" alt="Ejecución de combo especial">
+        </div>
+        <div class="gallery-item">
+            <img src="public/mapadebloqueadp.png" alt="Nuevo ataque del personaje">
+        </div>
+        <div class="gallery-item">
+            <img src="public/ataqueespecial.png" alt="Progresión del mapa por eliminación de enemigos">
+        </div>
+    </div>
+</section>
+<!-- Semana 13 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 13: Seguimiento de Cámara y Sistema de Fases</h2>
+
+    <p class="week-description">
+        Durante esta semana se implementó el sistema de
+        <strong>seguimiento dinámico de cámara</strong>, permitiendo que el escenario acompañe
+        correctamente el desplazamiento del jugador a lo largo del nivel.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Además, se desarrolló un sistema de <strong>fases dentro del mapa</strong>,
+        donde al llegar a determinadas zonas se activan enemigos automáticamente,
+        obligando al jugador a enfrentarlos para continuar avanzando. Esto permitió
+        mejorar el ritmo del gameplay y generar encuentros de combate más controlados.
+    </p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/uPgV-wr1FaU" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/Semana131.png" alt="Ejecución de combo especial">
+        </div>
+        <div class="gallery-item">
+            <img src="public/Semana132.png" alt="Nuevo ataque del personaje">
+        </div>
+        <div class="gallery-item">
+            <img src="public/Semana133.png" alt="Progresión del mapa por eliminación de enemigos">
+        </div>
+    </div>
+</section>
+
+<!-- Semana 14 -->
+<section class="week-section week-14">
+    <h2 class="week-title">Semana 14: Creación de Assets y Refinamiento Visual</h2>
+
+    <p class="week-description">
+        Durante esta semana el equipo trabajó en la
+        <strong>creación de assets personalizados</strong> para fortalecer la identidad visual del juego.
+        Se desarrollaron nuevos elementos gráficos manteniendo la coherencia con la estética pixel art
+        y el estilo "neón corporativo" definido previamente.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Entre los assets realizados se encuentran fondos, elementos del entorno y piezas de interfaz
+        como el <strong>HUD de vida</strong>. Estos recursos permiten que el proyecto tenga una apariencia
+        más sólida, uniforme y profesional dentro del gameplay.
+    </p>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/hud.png" alt="Fondo personalizado del nivel">
+        </div>
+        <div class="gallery-item">
+            <img src="public/mañana1.png" alt="Diseño visual del entorno">
+        </div>
+        <div class="gallery-item">
+            <img src="public/tarde1.png" alt="HUD de vida del jugador">
+        </div>
+        <div class="gallery-item">
+            <img src="public/noche.png" alt="Assets adicionales">
+        </div>
+    </div>
+</section>
+
+<!-- Semana 15 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 15: Integración del Nuevo Mapa y HUD de Vida</h2>
+
+    <p class="week-description">
+        En esta semana se integró oficialmente el
+        <strong>nuevo mapa del nivel</strong>, incorporando los sprites y escenarios
+        desarrollados previamente para reemplazar los prototipos temporales utilizados durante el desarrollo inicial.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Además, se implementó el <strong>HUD de vida del jugador</strong> dentro del gameplay
+        y se añadieron los <strong>triggers de activación de enemigos</strong>, permitiendo que
+        los enfrentamientos se activen automáticamente al entrar en determinadas zonas del escenario.
+    </p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/nhWJzf308U8" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/semana151.png" alt="Ejecución de combo especial">
+        </div>
+        <div class="gallery-item">
+            <img src="public/semana152.png" alt="Nuevo ataque del personaje">
+        </div>
+        <div class="gallery-item">
+            <img src="public/semana153.png" alt="Progresión del mapa por eliminación de enemigos">
+        </div>
+    </div>
+</section>
+
+<!-- Semana 16 -->
+<section class="week-section">
+    <h2 class="week-title">Semana 16: Implementación de Objetos Destructibles</h2>
+
+    <p class="week-description">
+        Durante esta semana se desarrolló el sistema de
+        <strong>objetos destructibles</strong> dentro del entorno del juego, permitiendo
+        que distintos elementos de la oficina puedan ser golpeados y destruidos por el jugador.
+    </p>
+
+    <p class="week-description" style="margin-top: 10px;">
+        Esta mecánica aporta mayor dinamismo al gameplay y fortalece la sensación de caos característica
+        de <strong>Office Outrage</strong>, aumentando la interacción con el escenario y enriqueciendo
+        la experiencia de combate dentro de cada fase del nivel.
+    </p>
+
+    <!-- VIDEO -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Bq3G21LhVoQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- IMÁGENES -->
+    <div class="image-gallery">
+        <div class="gallery-item">
+            <img src="public/semana161.png" alt="Ejecución de combo especial">
+        </div>
+        <div class="gallery-item">
+            <img src="public/semana162.png" alt="Nuevo ataque del personaje">
+        </div>
+        <div class="gallery-item">
+            <img src="public/semana163.png" alt="Progresión del mapa por eliminación de enemigos">
+        </div>
+    </div>
+</section>
+        </section>
+        <p style="color: #ff2e88; text-align: center; margin: 40px 0;">
+    [ CONTINUARÁ... ]
+</p>
+
+        <footer>
+            <div id="equipo"
+                style="margin-bottom: 60px; text-align: center; border: 2px solid var(--neon-magenta); padding: 40px; background: rgba(255,46,136,0.05);">
+                <h3 style="font-size: 1rem; color: var(--neon-magenta); margin-bottom: 30px; letter-spacing: 5px;">
+                    EQUIPO DE DESARROLLO</h3>
+                <ul style="list-style: none; line-height: 2.5; font-size: 0.7rem; color: white;">
+                    <li>Alejandro Arias Ramírez</li>
+                    <li>Juan Andrés Escobar Castillo</li>
+                    <li>Josué Santiago Gallego Rendón</li>
+                    <li>Camilo Paz Restrepo</li>
+                    <li>Santiago Peña Agudelo</li>
+                </ul>
+                <p style="margin-top: 30px; color: var(--neon-cyan); font-size: 0.8rem; letter-spacing: 3px;">
+                    VIDEOJUEGOS. UAO 2026</p>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <a href="index.html" style="color: var(--neon-cyan); font-size: 0.5rem; text-decoration: none; border-bottom: 1px solid var(--neon-cyan);">← Volver a la página principal</a>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <p style="font-size: 0.5rem; color: #444;">EMPLEADO: JOHN-092 | ESTADO: EN REBELIÓN</p>
+            </div>
+            <p style="font-size: 0.6rem;">SISTEMA OFFICE-OUTRAGE v1.0.7 | © 2026 RETRO-CORP</p>
+        </footer>
+
+    </div>
+<!-- MODAL -->
+<div id="image-modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+</div>
+
+<script>
+const modal = document.getElementById("image-modal");
+const modalImg = document.getElementById("modal-img");
+const closeBtn = document.querySelector(".close");
+
+document.querySelectorAll(".gallery-item img").forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+    });
+});
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+};
+
+modal.onclick = function(e) {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+};
+</script>
+</body>
+
+</html>
